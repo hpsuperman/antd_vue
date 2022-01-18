@@ -1,0 +1,40 @@
+#components-form-demo-normal-login{
+    position: absolute;
+    left: 60vw;
+    top: 15vh;
+}
+#components-form-demo-normal-login .login-form {
+    max-width: 300px;
+  }
+  #components-form-demo-normal-login .login-form-forgot {
+    float: right;
+  }
+  #components-form-demo-normal-login .login-form-button {
+    width: 100%;
+  }
+  .head-box{
+    width: 100%;
+    padding:8px;
+  }
+  .wrapper{
+    margin-left:124px;
+    display: flex;
+    align-items: center;
+}
+  .logo{
+    height: 40px;
+    width: 40px;
+}
+  .head-qqt{
+    color: #178aff;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .img{
+    position: relative;
+     
+  }
+.ant-card{
+    height: 300px;
+    width:300px;
+}
