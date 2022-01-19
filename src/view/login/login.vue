@@ -3,9 +3,9 @@
   <div class="head-box">
     <div class="wrapper">
       <img class="logo" src="@/imgs/logo.png">
-      <span>QQT SRM</span>
-      <span>易学易用</span>
-      <span>互联互通</span>
+      <div style="padding-left:5px color:#1991ff">QQT SRM</div>
+      <span >易学易用</span>
+      <span >互联互通</span>
     </div>
   </div>
    <a-carousel autoplay>
