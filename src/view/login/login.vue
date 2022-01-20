@@ -12,7 +12,7 @@
       <template v-for="el in banners">
         <div :key="el.id">
           <img
-            class="img"
+            class="bj-img"
             :src="el.src"
             :alt="el.name">
           </div>
@@ -58,7 +58,12 @@
     <a href="#" style="color: #1890ff">忘记密码</a>
     <router-link to="/layout">
     <a-form-item>
-      <a-button type="primary" html-type="submit" class="login-form-button">
+      <a-button 
+          type="primary" 
+          shape="round"
+          size='large'
+          html-type="submit" 
+          class="login-form-button">
         登录
       </a-button>
     </a-form-item>
